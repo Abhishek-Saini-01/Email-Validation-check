@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(#F9E7FE, #DAFCFC);
+}
+.conatiner{
+    height: 250px;
+    width: 450px;
+    background: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7), -2px -2px 8px #ff572240;
+}
+.conatiner h3{
+    text-align: center;
+    margin: 30px 27px;
+    font-size: 27px;
+}
+.password{
+    height: 50px;
+    width: 400px;
+    outline: none;
+    background: transparent;
+    padding: 0 20px; 
+    font-size: 18px;
+    margin: 0 18px;
+    color: #ff9800;
+}
+.password::placeholder{
+    color: #091540;
+}
+.conatiner h5{
+    height: 20px;
+    width: 400px;
+    margin: 0 25px;
+}
+.conatiner .check{
+    height: 50px;
+    width: 400px;
+    border: none;
+    outline: none;
+    background: #f8f7f9;
+    padding: 0 20px;
+    margin: 14px 25px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #091540;
+}
